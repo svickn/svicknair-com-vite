@@ -9,6 +9,11 @@ const colors = {
   },
 }
 
-const theme = extendTheme({ colors })
+const fonts = {
+  body: "'Merriweather', Garamond, 'Times New Roman', serif",
+  heading: "'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+}
+
+const theme = extendTheme({ colors, fonts })
 
 export default theme
